@@ -2,7 +2,7 @@
 Main bot file
 """
 
-from . import config, strings, db, pay, keyboards, containers, utils
+import config, strings, db, pay, keyboards, containers, utils
 from aiogram import Bot, Dispatcher, executor
 from aiogram.dispatcher.middlewares import BaseMiddleware
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
